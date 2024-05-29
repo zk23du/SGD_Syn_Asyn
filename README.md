@@ -24,3 +24,6 @@ Asynchronous training is another approach in distributed systems where workers u
 ## Non-Distributed Synchronous SGD
 In non-distributed settings, synchronous training typically refers to the regular process of updating model parameters using the full batch or mini-batches of the dataset sequentially. Each update is dependent on the previous update, ensuring that the training process is synchronous in terms of sequential progression through iterations.
 
+### Important Links
+1. [RPC](https://pytorch.org/docs/stable/rpc.html)
+2. [DDP](https://pytorch.org/tutorials/intermediate/ddp_tutorial.html)
